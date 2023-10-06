@@ -185,7 +185,7 @@ main {
 
 .colors {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   grid-gap: 1rem;
 
   & .card {
@@ -195,7 +195,7 @@ main {
     justify-content: space-between;
 
     & > * > * {
-      padding-right: 0.2rem;
+      padding-right: 0.4rem;
       &:not(:last-child) {
         border-right: 1px solid var(--accentgreen);
       }
@@ -208,7 +208,7 @@ main {
     &:nth-child(2) {
       background-color: var(--secondary);
       color: var(--primary);
-      border: 2px solid var(--primary);
+      border: 1px solid var(--primary);
       & > * > *:not(:last-child) {
         border-right: 1px solid var(--primary);
       }
